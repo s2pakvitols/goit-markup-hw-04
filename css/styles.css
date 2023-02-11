@@ -133,7 +133,16 @@ body {
   background-color: var(--main-text-color);
   text-align: center;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero\ image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1440px 600px;
 }
+
 .title-text {
   width: 496px;
   display: inline-block;
@@ -187,6 +196,22 @@ body {
 .section-specifics {
   display: flex;
   gap: 24px;
+}
+
+.bg-specifics {
+  background: #f4f4fd;
+  border-radius: 4px;
+  height: 112px;
+  width: 264px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-specifics {
+  width: 64px;
+  height: 64px;
 }
 
 .post-title {
@@ -252,6 +277,38 @@ body {
   color: var(--main-text-color);
 }
 
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 0 16px;
+  /* width: 232px;
+  height: 40px; */
+}
+
+.icon-list {
+  background: #404bbf;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-link {
+  /* display: block; */
+
+  /* height: 100%;
+  width: 100%; */
+}
+
+/* .icon-svg {
+  display: flex;
+  justify-content: center;
+} */
+
 .team-box {
   background-color: var(--main-bg-color);
   padding: 32px 0;
@@ -274,6 +331,24 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
+  margin-bottom: 8px;
+}
+
+/* costomers */
+.customers {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+
+.client-item {
+  display: flex;
+  gap: 24px;
+  height: 88px;
+}
+
+.client-list {
+  display: block;
+  align-items: center;
 }
 
 .footer .logo {
@@ -324,8 +399,6 @@ body {
   letter-spacing: 0.04em;
   color: var(--btn-text-color);
 
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border: 1px solid #e7e9fc;
 }
@@ -352,6 +425,10 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+
+.list-work:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .img-tbox {
