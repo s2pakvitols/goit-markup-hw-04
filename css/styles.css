@@ -341,7 +341,7 @@ a {
   gap: 24px;
 }
 
-.icon-client-link{
+.icon-client-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -478,14 +478,12 @@ a {
 }
 
 .link-work {
-  display: block; 
+  display: block;
 }
 
-.link-work:focus, 
-.link-work:hover  {
-
+.link-work:focus,
+.link-work:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-  
 }
 
 .img-tbox {
