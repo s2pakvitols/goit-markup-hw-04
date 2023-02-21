@@ -49,7 +49,7 @@ body {
   width: 100%;
 }
 
-.link {
+a {
   text-decoration: none;
 }
 
@@ -140,7 +140,7 @@ body {
     url(../images/hero\ image.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px 600px;
+  background-size: cover;
 }
 
 .title-text {
@@ -280,9 +280,7 @@ body {
 .social-icon {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 24px;
-  padding: 0 16px;
 }
 
 .icon-link {
@@ -298,7 +296,6 @@ body {
 .icon-link:hover,
 .icon-link:focus {
   background: #404bbf;
-  /* border-radius: 50% */
 }
 
 .icon-svg {
@@ -340,11 +337,12 @@ body {
 .client-item {
   display: flex;
   gap: 24px;
-  justify-content: center;
-  align-items: center;
 }
 
-.icon-client {
+.icon-client-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 168px;
@@ -352,8 +350,13 @@ body {
   fill: #8e8f99;
 }
 
-.icon-client:hover,
-.icon-client:focus {
+.icon-client {
+  width: 168px;
+  height: 88px;
+}
+
+.icon-client-link:hover,
+.icon-client-link:focus {
   border: 1px solid #404bbf;
   fill: #404bbf;
 }
@@ -472,8 +475,14 @@ body {
   row-gap: 48px;
 }
 
-.list-work:hover {
+.link-work {
+  display: block; 
+}
+
+.link-work :hover {
+  
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  
 }
 
 .img-tbox {
