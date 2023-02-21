@@ -141,6 +141,8 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .title-text {
@@ -479,8 +481,9 @@ a {
   display: block; 
 }
 
-.link-work :hover {
-  
+.link-work:focus, 
+.link-work:hover  {
+
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   
 }
